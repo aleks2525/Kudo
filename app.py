@@ -421,7 +421,7 @@ class WarehouseApp:
                     self.remove_notification(note["id"])
 
     def run(self):
-        st.title("Система управления комплектацией паллет")
+        st.title("Оптимизация процесса паллетизации товаров")
         
         self.show_notifications()
         self.show_sidebar()
@@ -1564,7 +1564,7 @@ class WarehouseApp:
 
 if __name__ == "__main__":
     st.set_page_config(
-        page_title="Система управления комплектацией паллет",
+        page_title="Оптимизация процесса паллетизации товаров",
         page_icon="📦",
         layout="wide",
         initial_sidebar_state="expanded"
